@@ -1,0 +1,17 @@
+/* Navigation Bar */
+.bg-secondary {
+    background-color: navy !important;
+}
+.active {
+    color: rgb(255, 208, 0) !important;
+}
+.nav-link {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+}
+
+.nav-link:hover {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 208, 0) !important;
+}
