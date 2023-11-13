@@ -1,8 +1,8 @@
-// Toggle Animation by Class
-$(window).scroll(function(){
-    if($(document).scrollTop() > 100){
-      $('nav').addClass('animate');
-    }else{
-      $('nav').removeClass('animate');
-    }
-  })
+$('.popup-youtube, .popup-text').magnificPopup({
+                    disableOn: 320,
+                    type: 'iframe',
+                    mainClass: 'mfp-fade',
+                    removalDelay: 160,
+                    preloader: false,
+                    fixedContentPos: true
+});
