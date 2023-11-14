@@ -16,6 +16,39 @@
     color: rgb(255, 208, 0) !important;
 }
 
+
+.title{
+    font-size: 85px;
+    font-family: 'Teko', sans-serif;
+    color: rgb(255, 208, 0) !important;
+}
+.subtitle{
+    font-size: 75px;
+    font-family: 'Teko', sans-serif;
+    color: navy; 
+}
+.sub{
+    font-size: 65px;
+    font-family: 'Teko', sans-serif;
+    color: rgb(255, 208, 0) !important;
+}
+.block{
+    text-align: center;
+    vertical-align: middle;
+    font-size:35px;
+    padding-top: 20%;
+}
+.circle{
+    background:  rgb(255, 208, 0) ;
+    border-radius: 200px;
+    color: navy;
+    height: 400px;
+    font-weight: bold;
+    width: 400px;
+    border: 6px solid navy;
+    padding-top: 10%
+}
+=======
 .wrapper .multi_color_border {
     width: 100%;
     margin: 0px;
