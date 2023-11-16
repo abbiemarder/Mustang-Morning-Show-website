@@ -45,12 +45,12 @@
     color: rgb(255, 208, 0) !important;
 }
 .subtitle{
-    font-size: 85px;
+    font-size: 125px;
     font-family: 'Teko', sans-serif;
     color: navy; 
 }
 .sub{
-    font-size: 65px;
+    font-size: 55px;
     font-family: 'Teko', sans-serif;
     color: rgb(255, 208, 0) !important;
 }
@@ -69,7 +69,7 @@
     font-weight: bold;
     width: 400px;
     border: 6px solid navy;
-    padding-top: 10%
+    padding-top: 16%
 }
 /* Footer */
 .site-footer
