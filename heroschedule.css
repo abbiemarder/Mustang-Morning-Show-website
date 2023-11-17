@@ -290,21 +290,11 @@ CSS.mb-6 {
     --hcf-overlay-opacity: 0.2;
     --hcf-overlay-bg-color: var(--bs-black-rgb);
     position: relative;
-    background-image: url("images/mhs.png");
+    background-image: url("images/mhshero.png");
+    height: 700px;
+
 }
 
-.hcf-overlay::after {
-    display: block;
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(var(--hcf-overlay-bg-color),
-            var(--hcf-overlay-opacity));
-    z-index: 0;
-}
 
 .hcf-overlay>* {
     position: relative;
@@ -317,6 +307,3 @@ CSS.mb-6 {
     transition: all 0.5s;
 }
 
-.hcf-transform:hover {
-    transform: scale3d(1.02, 1.02, 1.02);
-}
