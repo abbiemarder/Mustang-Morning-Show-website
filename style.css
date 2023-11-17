@@ -52,7 +52,8 @@
 .sub{
     font-size: 55px;
     font-family: 'Teko', sans-serif;
-    color: rgb(255, 208, 0) !important;
+    color: navy; 
+    padding: 7px;
 }
 .block{
     text-align: center;
