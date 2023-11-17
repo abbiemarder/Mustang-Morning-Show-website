@@ -287,10 +287,10 @@ CSS.mb-6 {
 }
 
 .hcf-overlay {
-    --hcf-overlay-opacity: 0.5;
+    --hcf-overlay-opacity: 0.2;
     --hcf-overlay-bg-color: var(--bs-black-rgb);
     position: relative;
-    background-image: url("images/marlboro-high-school-marlboro-nj-6.jpg");
+    background-image: url("images/mhs.png");
 }
 
 .hcf-overlay::after {
