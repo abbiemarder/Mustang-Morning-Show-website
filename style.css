@@ -37,7 +37,11 @@
     text-align: center;
     font-weight: bold;
 }
-
+.ptitle {
+    font-family: 'Teko', sans-serif;
+    color: navy;
+    text-align: center;
+}
 /* Schedule */
 .title{
     font-size: 95px;
