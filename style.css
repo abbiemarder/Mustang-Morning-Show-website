@@ -29,9 +29,7 @@
             navy 50%,
             navy 50%);
 }
-body {
-  background-color: rgb(255, 208, 0) !important;
-}
+
 .hometitle{
     font-family: 'Teko', sans-serif;
     color: navy;
@@ -43,6 +41,7 @@ body {
     font-family: 'Teko', sans-serif;
     color: navy;
     text-align: center;
+    font-size: 30px;
 }
 /* Schedule */
 .title{
