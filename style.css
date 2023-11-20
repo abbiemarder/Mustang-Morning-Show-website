@@ -44,6 +44,10 @@
     font-family: 'Teko', sans-serif;
     color: navy !important;
 }
+.date {
+  font-size: 75px;font-family: 'Teko', sans-serif;
+    color: rgb(255, 208, 0);
+}
 .subtitle{
     font-size: 125px;
     font-family: 'Teko', sans-serif;
@@ -63,7 +67,7 @@
     padding-bottom: 5%;
 }
 .circle{
-    background:  rgb(255, 208, 0) ;
+    background:  rgb (255, 208, 0) ;
     border-radius: 200px;
     color: navy;
     height: 400px;
