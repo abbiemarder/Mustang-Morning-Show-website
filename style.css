@@ -52,7 +52,8 @@
 }
 .date {
   font-size: 75px;font-family: 'Teko', sans-serif;
-    color: rgb(255, 208, 0);
+    color: white;
+    text-shadow: 4px 4px navy;
 }
 .subtitle{
     font-size: 125px;
@@ -265,4 +266,10 @@
     content: '<';
     font-size: 55px;
     color: navy;
+}
+.mustang{
+  font-size: 125px;
+  font-family: 'Teko', sans-serif;
+  color: white; 
+  text-shadow: 4px 4px navy;
 }
