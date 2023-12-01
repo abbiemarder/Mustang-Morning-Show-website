@@ -1,9 +1,16 @@
+
 body {
-    background: rgb(255, 208, 0);
-    background: -webkit-linear-gradient(to left, rgb(255, 208, 0), navy);
-    background: linear-gradient(to left, navy, rgb(255, 208, 0));
-    min-height: 100vh;
-}
+        --backgroundPosition: 0% 0%;
+        background: linear-gradient(180deg, rgb(255, 208, 0) 0%,
+                navy 25%,
+                rgb(255, 208, 0) 50%,
+                navy 100%);
+        background-size: 100% 300%;
+        background-position: var(--backgroundPosition);
+        transition: background-position .5s ease;
+        height: 3000px;
+    }
+
 
 .TEST {
     min-height: 300px;
