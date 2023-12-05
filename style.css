@@ -51,9 +51,16 @@
     font-size: 25px;
 }
 .date {
-  font-size: 72px;font-family: 'Teko', sans-serif;
+  font-size: 72px;
+  font-family: 'Teko', sans-serif;
     color: white;
     text-shadow: 4px 4px navy;
+}
+.date1 {
+  font-size: 72px;
+  font-family: 'Teko', sans-serif;
+  color: white;
+  text-shadow: 3px 3px rgb(255, 208, 0);
 }
 .subtitle{
     font-size: 125px;
