@@ -8,7 +8,6 @@ body {
         background-size: 100% 300%;
         background-position: var(--backgroundPosition);
         transition: background-position .5s ease;
-        height: 3000px;
     }
 
 
