@@ -1,31 +1,58 @@
- body {
-     font-family: "Inter";
+
+ /*contact css*/
+ .form {
+     padding-top: 120px;
  }
 
- label,
- button {
-     font-size: 16px;
-     cursor: pointer;
+ .bg {
+     background-color: rgb(49, 14, 131);
+     padding: 30px 80px;
+     font-size: 30px;
+     border-radius: 10px;
+     max-width: 700px;
+     margin: auto;
  }
 
- input,
- textarea {
-     border: 3px solid #eee;
-     padding: .4em 1em;
-     border-radius: 6px;
+ .textfield {
+     background-color: #ffffff;
+     border-radius: 10px;
+     color: #8f8f8f;
+     font-family: 'Raleway', sans-serif;
  }
 
- form {
-     display: grid;
-     grid-row-gap: 10px;
-     justify-content: center;
+ .textfield .form-text-area {
+     background-color: #f0f4f5;
+     height: auto;
+     padding-left: 20px;
  }
 
- button {
-     margin-top: 10px;
-     background: #133EF5;
-     color: #fff;
-     padding: 10px 0;
-     border: 0;
-     border-radius: 6px;
+ .title1 {
+     color: white;
+     font-family: 'Raleway', sans-serif;
+     font-size: 40px;
+ }
+
+ .send {
+     padding-top: 5px;
+     color: white;
+     padding-bottom: 2px;
+     font-family: 'Raleway', sans-serif;
+     background: rgb(163, 128, 247);
+     background: linear-gradient(260deg, rgba(163, 128, 247, 1) 0%, rgba(118, 83, 202, 1) 30%, rgba(108, 73, 191, 1) 48%, rgba(61, 23, 151, 0) 100%);
+ }
+
+ .more {
+     text-align: center;
+     text-decoration: none;
+     color: rgb(49, 14, 131);
+     font-family: 'Raleway', sans-serif;
+     font-size: 30px;
+ }
+
+ .more:hover {
+     text-align: center;
+     text-decoration: none;
+     color: rgba(163, 128, 247, 1);
+     font-family: 'Raleway', sans-serif;
+     font-size: 30px;
  }
