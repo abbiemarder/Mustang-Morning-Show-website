@@ -1,9 +1,9 @@
 
 body {
         --backgroundPosition: 0% 0%;
-        background: linear-gradient(180deg, rgb(255, 208, 0) 0%,
+        background: linear-gradient(180deg, #F9B418 0%,
                 navy 25%,
-                rgb(255, 208, 0) 50%,
+                #F9B418 50%,
                 navy 100%);
         background-size: 100% 300%;
         background-position: var(--backgroundPosition);
