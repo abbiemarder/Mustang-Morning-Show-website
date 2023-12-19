@@ -26,3 +26,7 @@ body{
 font-family: 'Teko', sans-serif;
 font-size: 80px;
 }
+
+img{
+    border: 5px solid white;
+}
