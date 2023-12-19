@@ -70,4 +70,8 @@
     padding-top: 150px;
      font-size: 90px;
      font-family: 'Teko', sans-serif;
+
+}
+img{
+    border: 5px solid white;
 }
