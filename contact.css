@@ -1,73 +1,28 @@
 
-#envelope {
-    margin: 0 auto;
-    margin-top: 150px;
-    width: 300px;
-    height: 150px;
-    border: 10px solid #a5a5a5;
-    border-top: 12px solid #a5a5a5;
-    background: #a5a5a5;
-    z-index: 2;
-}
-
-#envelope:before {
-    content: "";
-    position: absolute;
-    margin: -85px 0 0 -10px;
-    border-top: 0px solid #a5a5a5;
-    z-index: 4;
-    border-left: 160px solid transparent;
-    border-bottom: 75px solid #d0d0d0;
-    border-right: 160px solid transparent;
-    /* Safari */
-    transition: border-top 500ms linear, border-bottom 500ms linear 500ms, margin-top 500ms linear 500ms, z-index 0s 500ms;
-}
-
-#envelope:hover:before {
-    border-bottom: 0px solid #d0d0d0;
-    margin-top: -10px;
-    z-index: 10;
-
-    /* Safari */
-    transition: border-bottom 500ms linear, margin-top 500ms linear, border-top 500ms linear 500ms, z-index 0s 500ms;
-}
-
-#envelope:after {
-    content: "";
-    position: absolute;
-    margin: -10px 0 0 -10px;
-    width: 40px;
-    border-top: 85px solid transparent;
-    border-left: 140px solid #bababa;
-    border-bottom: 85px solid #d0d0d0;
-    border-right: 140px solid #bababa;
-    box-shadow: -0px 10px 9px #121212;
-    z-index: 6;
-}
-
-#letter {
-    position: absolute;
-    width: 300px;
-    height: 150px;
-    margin-top: 0px;
-    background: #e6e6e6;
-    box-shadow: 0px 0px 5px #343434;
-    z-index: 5;
-    transition: margin-top 500ms 1s;
-}
-
-#envelope:hover>#letter {
-    margin-top: -60px;
-    transition: margin-top 500ms;
-}
-
-#letter>h3 {
-    text-align: center;
-    font-size: 28pt;
-    color: #321;
-}
 .about{
     padding-top: 150px;
      font-size: 90px;
      font-family: 'Teko', sans-serif;
+     margin-right: 20%;
+}
+.werntz {
+    padding-top: 5%;
+}
+.inf{
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+.content{
+    justify-content: center;
+    color: navy;
+    background-color: white;
+    border-radius: 3%;
+    padding: 3%;
+}
+body{
+    background-color: #F9B418;
+}
+.ti {
+font-family: 'Teko', sans-serif;
+font-size: 80px;
 }
